@@ -7,7 +7,6 @@ package kenkensolver;
 public class KenKenEntry {
     int[] possvals;
     int value = 0;
-    boolean isKnown = false;
     
     public KenKenEntry(int possvals){
         this.possvals = new int[possvals];
